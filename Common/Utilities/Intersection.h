@@ -1,0 +1,16 @@
+///////////////////////////////////////////////////////////////////////////////
+//	File:    Intersection.h
+//	Author:	 Emil Kalchev
+//  E-mail:  developer@engineer.bg
+///////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef __INTERSECTION__
+#define __INTERSECTION__
+
+template<class Primitive>
+class Intersection
+{
+	Primitive* prim;
+};
+#endif

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shiny">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{5db2b580-a978-4786-a6ce-c156342dcab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{b54b1016-d2a2-44bb-8e84-6bbeccb95fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeoObjects">
+      <UniqueIdentifier>{c95fb0c2-666e-4aab-90ba-22fffa1822c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{84e887e3-78a3-4277-9159-ebe826cfe588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{9571d975-ffe1-40c9-8894-707c5ec4d03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{162d3f21-7620-4ac1-93e6-d3615891b2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading\Tasks">
+      <UniqueIdentifier>{06b2de83-849d-4305-91d6-5e696ae7b6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracers">
+      <UniqueIdentifier>{498db223-9e11-4015-b2ff-c55b9c869d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lights">
+      <UniqueIdentifier>{cf0a4ff2-c0a9-4984-b6d1-05e6ee7f68ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRDF">
+      <UniqueIdentifier>{af22677a-ed49-48a5-9735-27c1293ea7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{d7a6a1b3-5fc3-45e6-9b14-d21af0a896a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KdTreeAdapter">
+      <UniqueIdentifier>{01412edc-f075-4bd1-ace8-4efa7d7cf2c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shiny.cpp">
+      <Filter>Shiny</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Shiny</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\RGBColor.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\ShadeRec.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\ViewPane.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals\RenderConfig.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoObjects\GeoObject.cpp">
+      <Filter>GeoObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoObjects\Plane.cpp">
+      <Filter>GeoObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoObjects\Sphere.cpp">
+      <Filter>GeoObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoObjects\Triangle.cpp">
+      <Filter>GeoObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\PinholeCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Event.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Semaphore.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\SingleLock.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\TaskManager.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Thread.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Tasks\PinholeCameraRenderTask.cpp">
+      <Filter>Threading\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\Tasks\Task.cpp">
+      <Filter>Threading\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\RayCast.cpp">
+      <Filter>Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\Tracer.cpp">
+      <Filter>Tracers</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights\AmbientLight.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights\DirectionalLight.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights\Light.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights\PointLight.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF\BRDF.cpp">
+      <Filter>BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF\GlossySpecular.cpp">
+      <Filter>BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF\Lambertian.cpp">
+      <Filter>BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF\PerfectSpecular.cpp">
+      <Filter>BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Material.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Matte.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Phong.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\Reflective.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTreeAdapter\GeoObjectAdapter.cpp">
+      <Filter>KdTreeAdapter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shiny.h">
+      <Filter>Shiny</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Shiny</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\RGBColor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\ShadeRec.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\ViewPane.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals\Constants.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals\GlobalDefs.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals\RenderConfig.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoObjects\GeoObject.h">
+      <Filter>GeoObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoObjects\Plane.h">
+      <Filter>GeoObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoObjects\Sphere.h">
+      <Filter>GeoObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoObjects\Triangle.h">
+      <Filter>GeoObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\PinholeCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Event.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Semaphore.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\SingleLock.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\TaskManager.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Thread.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Tasks\PinholeCameraRenderTask.h">
+      <Filter>Threading\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\Tasks\Task.h">
+      <Filter>Threading\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\RayCast.h">
+      <Filter>Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\Tracer.h">
+      <Filter>Tracers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights\AmbientLight.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights\DirectionalLight.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights\Light.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights\PointLight.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF\BRDF.h">
+      <Filter>BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF\GlossySpecular.h">
+      <Filter>BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF\Lambertian.h">
+      <Filter>BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF\PerfectSpecular.h">
+      <Filter>BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\Material.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\Matte.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\Phong.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\Reflective.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTreeAdapter\GeoObjectAdapter.h">
+      <Filter>KdTreeAdapter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

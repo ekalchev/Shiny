@@ -1,0 +1,13 @@
+///////////////////////////////////////////////////////////////////////////////
+//	File:    RenderConfig.cpp
+//	Author:	 Emil Kalchev
+//  E-mail:  developer@engineer.bg
+///////////////////////////////////////////////////////////////////////////////
+
+
+#include "stdafx.h"
+#include "RenderConfig.h"
+
+
+int RenderConfig::nTraceDepth = 4;
+RGBColor RenderConfig::backgroundColor = RGBColor(0,0,0);

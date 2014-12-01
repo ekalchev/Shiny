@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ply">
+      <UniqueIdentifier>{235ce166-9009-4561-8c8c-b890397db04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ply\lib">
+      <UniqueIdentifier>{6c4058bb-6f10-4040-a198-2c34de74d3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{81a95671-f212-4185-948e-d8333c942edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{6203ae4f-f433-40c1-b219-d7ed7387fef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\CPU">
+      <UniqueIdentifier>{01503e49-dcdb-4069-b849-52604156c541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{bf1398a5-8426-4ffb-83ef-d1f93d566157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KdTree">
+      <UniqueIdentifier>{0d8a14ec-5633-4d0d-a3a2-e5bd256d605c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoundingVolumes">
+      <UniqueIdentifier>{54ac592b-3b15-434c-8a8c-3e798d53c041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{99939ac7-11b5-4051-9df4-4c878f4be3dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ply\PlyLoader.cpp">
+      <Filter>ply</Filter>
+    </ClCompile>
+    <ClCompile Include="ply\lib\ply.cpp">
+      <Filter>ply\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Logger.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Ray.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Timer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\CPU\Matrix.cpp">
+      <Filter>Math\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\CPU\Point3D.cpp">
+      <Filter>Math\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\CPU\Vector3D.cpp">
+      <Filter>Math\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh\Vertex.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="KdTree\BoundEdge.cpp">
+      <Filter>KdTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingVolumes\AABBox.cpp">
+      <Filter>BoundingVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Mem.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\SlabAllocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ply\PlyLoader.h">
+      <Filter>ply</Filter>
+    </ClInclude>
+    <ClInclude Include="ply\lib\ply.h">
+      <Filter>ply\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Intersection.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Logger.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Ray.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ShinyMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\CPU\Matrix.h">
+      <Filter>Math\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\CPU\Point3D.h">
+      <Filter>Math\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\CPU\Vector3D.h">
+      <Filter>Math\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh\Vertex.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTree\BoundEdge.h">
+      <Filter>KdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTree\KdTree.h">
+      <Filter>KdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTree\KdTreeNode.h">
+      <Filter>KdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTree\MailboxPrim.h">
+      <Filter>KdTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolumes\AABBox.h">
+      <Filter>BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\Mem.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\SlabAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefs.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+</Project>

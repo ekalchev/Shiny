@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shiny", "Shiny\Shiny.vcxproj", "{828CF0A0-5CC8-4ACA-B496-B03F3A34DFC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32View", "Win32View\Win32View.vcxproj", "{77290959-2149-4F43-85F9-12A609A10A42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{B6421175-3771-4D3B-B9AF-8E38ED7E699D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{828CF0A0-5CC8-4ACA-B496-B03F3A34DFC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{828CF0A0-5CC8-4ACA-B496-B03F3A34DFC0}.Debug|Win32.Build.0 = Debug|Win32
+		{828CF0A0-5CC8-4ACA-B496-B03F3A34DFC0}.Release|Win32.ActiveCfg = Release|Win32
+		{828CF0A0-5CC8-4ACA-B496-B03F3A34DFC0}.Release|Win32.Build.0 = Release|Win32
+		{77290959-2149-4F43-85F9-12A609A10A42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77290959-2149-4F43-85F9-12A609A10A42}.Debug|Win32.Build.0 = Debug|Win32
+		{77290959-2149-4F43-85F9-12A609A10A42}.Release|Win32.ActiveCfg = Release|Win32
+		{77290959-2149-4F43-85F9-12A609A10A42}.Release|Win32.Build.0 = Release|Win32
+		{B6421175-3771-4D3B-B9AF-8E38ED7E699D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6421175-3771-4D3B-B9AF-8E38ED7E699D}.Debug|Win32.Build.0 = Debug|Win32
+		{B6421175-3771-4D3B-B9AF-8E38ED7E699D}.Release|Win32.ActiveCfg = Release|Win32
+		{B6421175-3771-4D3B-B9AF-8E38ED7E699D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaProjectFile = C:\Shiny\CodeAnalyst\Shiny.caw
+	EndGlobalSection
+EndGlobal
